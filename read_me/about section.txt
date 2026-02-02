@@ -1,0 +1,43 @@
+To run task-1
+run the python file .
+steps to run the project: Integration of LLM and chatbot
+requirements: python 3.10 or above, ollama 
+download links:
+for python: python
+for ollama: ollama 
+step-1: goto the project file directory there you will find four folders
+readme
+chatbot
+backend
+data
+click on address bar and type cmd
+In cmd type:
+ollama pull phi
+ollama run phi
+step-2:goto folder backend and click on address bar and type cmd
+
+In cmd type:
+uvicorn main:app --reload
+step-3:goto folder chatbot and click on address bar and type cmd
+In cmd type:
+python cli_chatbot.py
+input:Enter ingredients (comma separated): egg and onion
+output:
+Response:
+ Sure, I'd be happy to help! Here's one recipe you might enjoy:
+
+Egg and Onion Scramble
+
+Ingredients:
+- 2 eggs
+- 1/2 cup diced onion
+- 1 tablespoon butter
+- Salt and pepper to taste
+
+Instructions:
+1. Heat the butter in a non-stick pan over medium heat.
+2. Add the diced onion and sauté until it is soft, about 3-4 minutes.
+3. Whisk together the eggs and season with salt and pepper.
+4. Pour the egg mixture into the pan over the onions.
+5. Using a spatula, gently scramble the eggs as they cook.
+6. When the eggs are set, remove from heat and serve hot.
