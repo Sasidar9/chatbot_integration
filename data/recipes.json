@@ -1,0 +1,17 @@
+[
+  {
+    "ingredients": ["egg", "onion"],
+    "recipe": "Onion Omelette",
+    "steps": "Beat eggs, add chopped onions, salt, and cook on a pan."
+  },
+  {
+    "ingredients": ["egg", "tomato"],
+    "recipe": "Tomato Egg Scramble",
+    "steps": "Scramble eggs with chopped tomatoes and spices."
+  },
+  {
+    "ingredients": ["potato", "onion"],
+    "recipe": "Potato Onion Fry",
+    "steps": "Fry sliced potatoes and onions with spices."
+  }
+]
